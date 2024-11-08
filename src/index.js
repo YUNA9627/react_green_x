@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './compoenets/App';
+import App from './components/App';
 import { firebase } from './firebase';
 import { BrowserRouter } from 'react-router-dom';
 console.log(firebase)

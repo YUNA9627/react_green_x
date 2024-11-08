@@ -8,7 +8,7 @@ const firebaseConfig = {
   apiKey: process.env.REACT_APP_APPKEY,
   authDomain: process.env.REACT_APP_AUTHDOMAIN,
   projectId: process.env.REACT_APP_PROJECTID,
-  storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+  storageBucket: process.env.REACT_APP_STROAGEBUCKET,
   messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
   appId: process.env.REACT_APP_APPID
 };
@@ -16,4 +16,4 @@ const firebaseConfig = {
 // Initialize Firebase
 // const app = initializeApp(firebaseConfig);
 
-export const firebase = initializeApp(firebaseConfig);
+export const firebase =  initializeApp(firebaseConfig);
