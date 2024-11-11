@@ -1,0 +1,9 @@
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  * {
+    color: #000;
+    font-weight: bold;
+  }
+}
