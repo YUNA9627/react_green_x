@@ -48,7 +48,7 @@ const onSubmit = async (e)=>{ // async추가 -> 비동기적 작동
 
   try {
     const docRef = await addDoc(collection(db, "comments"), {
-      comments:comments,
+      comment:comment,
       // comment,
       date:serverTimestamp()
     });
